@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #161717;
+}
+
+.frm_container h1 {
+  color: white;
+}
+
+.login_frm {
+  width: 27%;
+  height: 67vh;
+  background-color: #1d2424;
+  border-radius: 0.5rem;
+  margin: 2rem auto;
+}
+
+.login_frm input {
+  width: 80%;
+  height: 4.7vh;
+  margin-top: 1.5rem;
+  border: none;
+  outline: none;
+  color: white;
+  padding-left: 0.7rem;
+  border-radius: 0.3rem;
+  background-color: #2a3333;
+}
+
+.login_frm textarea:nth-child(5) {
+  width: 80%;
+  height: 10vh;
+  color: white;
+  margin-top: 1.5rem;
+  border: none;
+  outline: none;
+  padding-left: 0.7rem;
+  border-radius: 0.3rem;
+  background-color: #2a3333;
+}
+
+.login_frm button:nth-child(6) {
+  width: 80%;
+  height: 4.7vh;
+  margin-top: 1.5rem;
+  border: none;
+  outline: none;
+  color: white;
+  padding-left: 0.7rem;
+  border-radius: 0.3rem;
+  background-color: #025769;
+  cursor: pointer;
+}
+
+table {
+  width: 70%;
+  height: 90vh;
+  background-color: #2a3333;
+  margin: 2rem auto;
+  border-radius: 0.3rem;
+}
+.tbl_head th:nth-child(1) h2 {
+  margin-top: 2rem;
+  margin-left: -50rem;
+}
+.tbl_head th:nth-child(1) input {
+  margin-top: -3rem;
+  margin-left: 17rem;
+  position: absolute;
+  width: 12%;
+  height: 2rem;
+  border-radius: 0.3rem;
+  padding-left: 0.5rem;
+}
+.tbl_body tr:nth-child(1) {
+  margin-top: 0rem;
+  margin-left: 3rem;
+  position: absolute;
+}
+
+.tbl_body tr:nth-child(2) {
+  margin-top: 0rem;
+  margin-left: 10rem;
+  position: absolute;
+}
+.tbl_body tr:nth-child(3) {
+  margin-top: 0rem;
+  margin-left: 19.5rem;
+  position: absolute;
+}
+.tbl_body tr:nth-child(4) {
+  margin-top: 0rem;
+  margin-left: 28rem;
+  position: absolute;
+}
+.tbl_body tr:nth-child(5) {
+  margin-top: 0rem;
+  margin-left: 35rem;
+  position: absolute;
+}
+
+.tbl_body tr:nth-child(6) {
+  margin-top: 0rem;
+  margin-left: 43rem;
+  position: absolute;
+}
+
+.tbl_body tr:nth-child(7) {
+  margin-top: 0rem;
+  margin-left: 51rem;
+  position: absolute;
+}
+
+.tbl_body {
+  border-bottom: 1px solid lightgray;
+  color: white;
+}
+
+th {
+  color: white;
+}
